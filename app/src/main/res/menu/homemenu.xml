@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:icon="@drawable/ic_home"
+    android:title="Home"
+    android:id="@+id/home"
+    />
+    <item
+        android:icon="@drawable/ic_send"
+        android:title="Send"
+        android:id="@+id/send"
+        />
+
+    <item
+        android:icon="@drawable/ic_email"
+        android:title="email"
+        android:id="@+id/email"
+       />
+
+    <item
+        android:icon="@drawable/ic_exit"
+        android:title="Logout"
+        android:id="@+id/logout" />
+
+
+
+</menu>

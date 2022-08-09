@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_20sdp"
+    android:orientation="vertical"
+    tools:context=".bottomnav.Calculator">
+
+    <EditText
+        android:id="@+id/fnum"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/lnum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+      />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_20sdp"
+        >
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/plus"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textSize="@dimen/_15sdp"
+            android:background="@drawable/gradient"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/minus"
+            android:layout_width="wrap_content"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textSize="@dimen/_15sdp"
+            android:background="@drawable/gradient"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/multi"
+            android:layout_width="wrap_content"
+            android:textSize="@dimen/_15sdp"
+            android:layout_weight="1"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:background="@drawable/gradient"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/division"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/_15sdp"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:background="@drawable/gradient"
+            />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dummy text"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="@dimen/_25sdp"
+        android:layout_gravity="center"/>
+
+<androidx.appcompat.widget.AppCompatButton
+    android:id="@+id/reset"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/white"
+    android:text="Rest"
+    android:textSize="@dimen/_20sdp"
+    android:background="@drawable/gradient"/>
+</LinearLayout>

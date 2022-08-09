@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+
+    android:title="ToDo list"
+    android:id="@+id/todolist"
+    android:icon="@drawable/ic_baseline_check_box_24"
+    />
+
+    <item
+        android:title="Resturant"
+        android:id="@+id/resturant"
+        android:icon="@drawable/ic_resturant"
+        />
+
+    <item
+        android:title="Counter"
+        android:id="@+id/counter"
+        android:icon="@drawable/ic_counter"
+        />
+
+    <item
+        android:title="Calculator"
+        android:id="@+id/calculator"
+        android:icon="@drawable/ic_calculator"
+        />
+    <item
+        android:icon="@drawable/tab"
+        android:title="tab"
+        android:id="@+id/tab" />
+</menu>

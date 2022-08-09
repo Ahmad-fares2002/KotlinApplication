@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/USER/AndroidStudioProjects/UIHomework/app/src/main/res/drawable/circl.xml" value="0.1315" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/UIHomework/app/src/main/res/drawable/gradient.xml" value="0.1315" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/UIHomework/app/src/main/res/drawable/passeye.xml" value="0.1315" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/UIHomework/app/src/main/res/drawable/resturant.xml" value="0.174" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/UIHomework/app/src/main/res/layout/activity_base.xml" value="0.1" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/UIHomework/app/src/main/res/layout/activity_coroutine_acitivity.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/UIHomework/app/src/main/res/layout/activity_counter.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/UIHomework/app/src/main/res/layout/activity_home.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/UIHomework/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/UIHomework/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/UIHomework/app/src/main/res/layout/activity_resturant.xml" value="0.22" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/UIHomework/app/src/main/res/layout/activity_spalsh_screen.xml" value="0.2" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/UIHomework/app/src/main/res/layout/activity_tab_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/UIHomework/app/src/main/res/layout/activity_to_do_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/UIHomework/app/src/main/res/layout/circle.xml" value="0.203125" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/UIHomework/app/src/main/res/layout/fragment_calculator.xml" value="0.22" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/UIHomework/app/src/main/res/layout/fragment_email.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/UIHomework/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/UIHomework/app/src/main/res/layout/fragment_send.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/UIHomework/app/src/main/res/layout/header.xml" value="0.22" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/UIHomework/app/src/main/res/layout/item_tablayout.xml" value="0.203125" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/UIHomework/app/src/main/res/layout/item_todo.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/UIHomework/app/src/main/res/menu/btnavmenu.xml" value="0.22" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/UIHomework/app/src/main/res/menu/homemenu.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
