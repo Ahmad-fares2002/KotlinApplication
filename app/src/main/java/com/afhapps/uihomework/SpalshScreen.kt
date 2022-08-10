@@ -18,6 +18,7 @@ class SpalshScreen : AppCompatActivity() {
             val intent = Intent(this, Coroutine::class.java)
             startActivity(intent)
             finish()
-        },3000)
+            //ahmad fares
+        }, 3000)
     }
 }
