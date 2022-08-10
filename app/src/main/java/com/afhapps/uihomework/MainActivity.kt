@@ -88,7 +88,7 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, Register::class.java)
             startActivity(intent)
             finish()
-            Log.d("Ahmad","Dont go out")
+            Log.d("Ahmad","Dont gaout")
 
         }
     }
