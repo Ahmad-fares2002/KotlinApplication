@@ -14,6 +14,7 @@ import androidx.fragment.app.FragmentTransaction
 import com.afhapps.uihomework.MainActivity
 import com.afhapps.uihomework.R
 import com.afhapps.uihomework.databinding.ActivityBaseBinding
+import com.afhapps.uihomework.notes.ui.Note
 
 class BaseActivity : AppCompatActivity() {
     lateinit var toggle: ActionBarDrawerToggle
@@ -40,6 +41,11 @@ class BaseActivity : AppCompatActivity() {
                 R.id.email->{
                     setCurrentFragment(Email())
                     binding.drLayout.close()
+                }
+                R.id.notesicon->{
+                    setCurrentFragment(Note())
+                    binding.drLayout.close()
+
                 }
                 R.id.logout->{
                     val alert = AlertDialog.Builder(this)

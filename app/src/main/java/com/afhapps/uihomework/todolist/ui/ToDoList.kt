@@ -28,6 +28,7 @@ class TodoList:Fragment(R.layout.activity_to_do_list){
         val adapter = ToDoAdapter(toDoListSingleItem)
         binding.rvToDo.adapter = adapter
         binding.rvToDo.layoutManager = LinearLayoutManager(activity)
+
         binding.btaddtodo.setOnClickListener {
             var text = binding.edtodo.text.toString()
             var newToDo= ToDo(text,false)

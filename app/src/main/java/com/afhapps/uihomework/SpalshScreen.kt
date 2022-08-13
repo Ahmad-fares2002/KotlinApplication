@@ -15,7 +15,7 @@ class SpalshScreen : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_spalsh_screen)
         Handler().postDelayed({
-            val intent = Intent(this, Coroutine::class.java)
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
             finish()
             //ahmad fares

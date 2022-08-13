@@ -16,11 +16,16 @@
         android:title="email"
         android:id="@+id/email"
        />
-
+    <item
+        android:icon="@drawable/notes"
+        android:title="Notes"
+        android:id="@+id/notesicon"
+        />
     <item
         android:icon="@drawable/ic_exit"
         android:title="Logout"
         android:id="@+id/logout" />
+
 
 
 
